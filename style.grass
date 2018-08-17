@@ -1,0 +1,123 @@
+﻿node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+relationship {
+  color: #c8ad73;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.Person {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.* {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.SomePerson {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Message {
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Application {
+  color: #b45f06;
+  border-color: #b45f06;
+  text-color-internal: #FFFFFF;
+  caption: "{Name}";
+  diameter: 80px;
+}
+node.Database {
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+  caption: "{name}";
+}
+node.Instance {
+  caption: "{Name}";
+  color: #717172;
+  border-color: #717172;
+  text-color-internal: #FFFFFF;
+  diameter: 65px;
+}
+relationship.Owns {
+  shaft-width: 3px;
+  color: #c8ad73;
+  border-color: #c8ad73;
+  text-color-internal: #FFFFFF;
+}
+relationship.OWNS {
+  color: #c8ad73;
+  border-color: #c8ad73;
+  text-color-internal: #FFFFFF;
+  shaft-width: 3px;
+}
+node.Environment {
+  defaultCaption: "<id>";
+  color: #717172;
+  border-color: #717172;
+  text-color-internal: #FFFFFF;
+  diameter: 65px;
+  caption: "{Name}";
+}
+node.SQLServer {
+  defaultCaption: "<id>";
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+  diameter: 50px;
+  caption: "{Name}";
+}
+node.Oracle {
+  defaultCaption: "<id>";
+  caption: "{Name}";
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+}
+node.DB2 {
+  defaultCaption: "<id>";
+  caption: "{Name}";
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+}
+node.Hive {
+  defaultCaption: "<id>";
+  caption: "{Name}";
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+}
+node.Sybase {
+  defaultCaption: "<id>";
+  caption: "{Name}";
+  color: #f3e9d3;
+  border-color: #717172;
+  text-color-internal: #717172;
+}
+relationship.DependsOn {
+  shaft-width: 3px;
+  color: #FF756E;
+  border-color: #717172;
+  text-color-internal: #717172;
+}
